@@ -7,8 +7,8 @@ const API_PATH = import.meta.env.VITE_API_PATH;
 
 function App() {
   const [formData, setFormData] = useState({
-    username: "wayne20003106@gmail.com",
-    password: "HdKJjYdWaA2HcF3",
+    username: "",
+    password: "",
   });
 
   // 登入狀態管理(控制顯示登入或產品頁）
