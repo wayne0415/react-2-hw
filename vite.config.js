@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
-    base: mode === "production" ? "/react-5-hw/" : "/",
+    base: mode === "production" ? "/react-2-hw/" : "/",
   };
 });
