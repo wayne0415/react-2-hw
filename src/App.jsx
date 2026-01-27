@@ -7,8 +7,8 @@ const API_BASE = import.meta.env.VITE_API_BASE;
 const API_PATH = import.meta.env.VITE_API_PATH;
 function App() {
   const [formData, setFormData] = useState({
-    username: "wayne20003106@gmail.com",
-    password: "HdKJjYdWaA2HcF3",
+    username: "",
+    password: "",
   });
   const [isLogin, setIsLogin] = useState(false);
   const [products, setProducts] = useState([]);
